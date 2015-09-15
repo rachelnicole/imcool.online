@@ -1,0 +1,45 @@
+/* pastel background from http://www.colourlovers.com/palette/1250813/Pastel_Rainbow */
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+@-webkit-keyframes pastelRainbow {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+@-moz-keyframes pastelRainbow {
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+@keyframes pastelRainbow { 
+  0%{background-position:94% 0%}
+  50%{background-position:7% 100%}
+  100%{background-position:94% 0%}
+}
+.container {
+	background: linear-gradient(225deg, #ffabab, #ffdaab, #ddffab, #abe4ff, #d9abff);
+	background-size: 300% 300%;
+	border: 10px solid white;
+	box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+	width: 100vw;
+
+	-webkit-animation: pastelRainbow 25s ease infinite;
+	-moz-animation: pastelRainbow 25s ease infinite;
+	animation: pastelRainbow 25s ease infinite;
+}
+
+.content-box {
+	font-size: 5em;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
