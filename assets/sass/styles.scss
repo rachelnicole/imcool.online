@@ -1,8 +1,11 @@
 /* pastel background from http://www.colourlovers.com/palette/1250813/Pastel_Rainbow */
 
 body {
-	height: 100%;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 	margin: 0;
+  height: 100%;
 }
 
 @-webkit-keyframes pastelRainbow {
@@ -37,9 +40,19 @@ body {
 
 .content-box {
 	font-size: 5em;
-  position: relative;
   text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
+}
+
+.project-wrapper {
+  display: inline-block;
+
+  h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+}
+
+.project-image > * {
+    width: 100%;
 }
 
