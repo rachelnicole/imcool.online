@@ -1,0 +1,28 @@
+{
+  "name": "imcool.online",
+  "version": "1.0.0",
+  "description": "cool place for cool stuff",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1",
+    "gulp-uncss": "^1.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelnicole/imcool.online.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelnicole/imcool.online/issues"
+  },
+  "homepage": "https://github.com/rachelnicole/imcool.online#readme"
+}
