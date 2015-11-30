@@ -35,6 +35,7 @@ body {
   background-size: 300% 300%;
   border: 10px solid white;
   box-sizing: border-box;
+  display: table;
   height: 100vh;
   margin: 0;
   position: relative;
@@ -47,11 +48,45 @@ body {
   font-size: 5em;
   text-align: center; }
 
+.info {
+  text-align: center; }
+
 .project-wrapper {
   display: inline-block; }
   .project-wrapper h1 {
     font-size: 1.5em;
     font-weight: 700; }
 
-.project-image > * {
+img.project-image {
+  padding-bottom: 15px;
   width: 100%; }
+
+a.project-link {
+  text-decoration: none; }
+
+.project-link h1 {
+  background-color: #d9abff;
+  display: inline;
+  font-style: italic;
+  padding: 5px;
+  color: white; }
+
+.single-project {
+  text-align: center; }
+
+.main-image {
+  width: 600px; }
+
+a.back-link {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-style: italic;
+  color: black;
+  background-color: #d9abff;
+  padding: 3px; }
+
+.single-project a {
+  font-style: italic;
+  padding: 4px;
+  background-color: #d9abff;
+  color: black; }
