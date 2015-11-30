@@ -89,7 +89,10 @@ a.project-link {
   text-align: center; }
 
 .main-image {
-  width: 600px; }
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px; }
 
 a.back-link {
   text-transform: uppercase;
@@ -110,3 +113,7 @@ a.back-link {
   .single-project a:hover {
     background-color: #abe4ff;
     transition: all .25s ease; }
+
+img.cat-using-robokitty {
+  display: inline-block;
+  width: 400px; }

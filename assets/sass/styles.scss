@@ -96,6 +96,9 @@ a.project-link {
 }
 .main-image {
   width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 a.back-link {
@@ -121,4 +124,10 @@ a.back-link {
     background-color: #abe4ff;
     transition: all .25s ease;
   }
+}
+
+
+img.cat-using-robokitty {
+  display: inline-block;
+  width: 400px;
 }
