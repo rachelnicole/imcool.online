@@ -50,6 +50,17 @@ body {
 
 .info {
   text-align: center; }
+  .info a {
+    font-style: italic;
+    padding: 4px;
+    background-color: #d9abff;
+    color: black;
+    color: white;
+    text-decoration: none;
+    transition: all .25s ease; }
+    .info a:hover {
+      background-color: #abe4ff;
+      transition: all .25s ease; }
 
 .project-wrapper {
   display: inline-block; }
@@ -70,6 +81,9 @@ a.project-link {
   font-style: italic;
   padding: 5px;
   color: white; }
+  .project-link h1:hover {
+    background-color: #abe4ff;
+    transition: all .25s ease; }
 
 .single-project {
   text-align: center; }
@@ -84,9 +98,15 @@ a.back-link {
   color: black;
   background-color: #d9abff;
   padding: 3px; }
+  a.back-link:hover {
+    background-color: #abe4ff;
+    transition: all .25s ease; }
 
 .single-project a {
   font-style: italic;
   padding: 4px;
   background-color: #d9abff;
   color: black; }
+  .single-project a:hover {
+    background-color: #abe4ff;
+    transition: all .25s ease; }
